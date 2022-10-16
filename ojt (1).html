@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+     <form action="https://animesekai01.000webhostapp.com/registration.php" method="post">
+        <meta charsset="UTF-8">
+        <title>OJT MONITORING SYSTEM</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <style>
+
+         body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+
+         }
+
+         .container {
+
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 5px
+
+         }
+
+         .container .title{
+            font-size: 25px;
+            font-weight: 500;
+
+         }
+
+         .container .title: :before{
+            content: '';
+            position: absolute;
+            left:0;
+            bottom:0;
+            height: 3px;
+            width: 30px;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+         }
+       
+
+         
+
+         
+
+         .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-left: 15px;
+            font-size: 16px;
+            border-bottom-width: 2px;
+            transition: all 0.3s ease;
+
+         }
+
+           form .button input{
+            height: 100%;
+            width: 100%;
+            outline: none ;
+            color: #fff;
+            border: none;
+            font-size: 23px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+          }
+        
+            form  .button input:hover{
+            background: linear-gradient(135deg,  #9b59b6, #71b7e6);
+          }
+
+        
+.user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-left: 15px;
+            font-size: 16px;
+            border-bottom-width: 2px;
+            transition: all 0.3s ease;
+
+         }
+.container form .user-details{
+
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+         }
+         
+         
+         
+         @media (max-width: 584px){
+
+            .container{
+                max-width:100%;
+            }
+
+            form .user-details .input-box{
+                margin-bottom: 15px;
+                width:100%;
+
+            }
+
+            form .gender-details .category{
+
+                width: 100%;
+            }
+
+            .container form .user-details{
+                max-height: 300px;
+                overflow-y: scroll;
+
+            }
+
+            .user-details::-webkit-scrollbar{
+                width: 0;
+            }
+            
+             body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+
+         }
+          }
+
+        </style>
+    </head>
+
+
+
+    <body>
+    
+        <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user-details">
+            
+                <div class="input-box">
+                <label for="name">Fullname</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="FullName" required>
+                </div>
+               
+                <div class="input-box">
+                    <label for="companyname">Company</label>
+                    <input type="text" class="form-control" id="companyname" name="companyname" placeholder="Company" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="number">Phone Number</label>
+                            <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number" required>
+                            </div>
+
+
+                            <div class="input-box">
+                                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                                </div>
+
+                                <div class="input-box">
+                                    <label for="pass">Confirm Password</label>
+                <input type="password" class="form-control" id="pass" name="pass" placeholder="Re-enter Password" required>
+                                    </div>
+            </div>
+             
+            
+            <div class="button">
+                
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        </div>       
+
+
+
+
+    </body>
+    </html>
+    
+    
+    
+    
+    
